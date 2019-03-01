@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gem Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Gruppo" rel="stylesheet">
+    <!-- style sheets -->
+    <link rel="stylesheet" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+   <section class="container" align="center">
+       <h1>Target Number: <span id="target-num"></span></h1>
+       <h3>Total: <span id="total"></span></h3>
+       <h4>Wins: <span id="wins"></span></h4>
+       <h4>Losses: <span id="losses"></span></h4>
+       <h3 id="alert-message"></h3>
+       <hr/>
+       <div class="btn-wrap">
+           <button data-index="0"><img src="assets/images/blue-apatite-400.jpg" alt="gem 1"/></button>
+           <button data-index="1"><img src="assets/images/jewels.jpg" alt="gem 2"/></button>
+           <button data-index="2"><img src="assets/images/red.png" alt="gem 3"/></button>
+           <button data-index="3"><img src="assets/images/sapphire.jpg" alt="gem 4"/></button>
+       </div>
+    </section>
+  
+<!-- script -->
+<script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
